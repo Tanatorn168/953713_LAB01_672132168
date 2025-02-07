@@ -5,6 +5,9 @@ console.log(greet('John'))
 //multiple function
 const multiply = (x,y) => {return x*y}
 console.log(multiply(5,10))
+module.exports = {
+    multiply
+};
 
 //arrow function greater number
 const getMax = (a,b) => {return a > b ? a : b}
