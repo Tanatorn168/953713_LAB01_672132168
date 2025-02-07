@@ -1,10 +1,16 @@
-let x = 11
-if (x > 10) {
-    console.log('x is more than 10')
+//let x = 11
+//let x = 51
+//let x = 61
+let x = 81
+if (x > 80) {
+    console.log('A')
 }
-else if (x < 5){
-    console.log('x is less than 5')
+else if (x > 60) {
+    console.log('B')
+}
+else if (x > 50) {
+    console.log('C')
 }
 else {
-    console.log('x is between 5 and 10')
+    console.log('F')
 }
