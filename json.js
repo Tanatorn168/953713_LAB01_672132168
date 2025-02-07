@@ -23,7 +23,7 @@ const student = {
     name: "Tanatorn",
     surname: "Chairin",
     age: 26,
-    gpa: 2.5
+    gpa: 1
 }
 
 console.log(studentInfo(student))
