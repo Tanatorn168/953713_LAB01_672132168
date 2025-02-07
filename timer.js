@@ -1,8 +1,8 @@
-waitAndPrint = (message, delay) => {
-    setTimeout (() => {
-        console.log(message);
-    }, delay);
+let count = 1;
+const waitAndPrint = () => {
+    console.log("Hello " + "World".repeat(count));
+    count++;
+    setTimeout(waitAndPrint, 3000);
 }
 
-//Example usage:
-waitAndPrint("Hello, world!", 2000);
+waitAndPrint();
