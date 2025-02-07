@@ -1,5 +1,3 @@
-//function express
-const greet = function greet(name) {
-    return 'Hello ' + name
-}
+//arrow function description
+const greet = (name) => 'Hello ' + name
 console.log(greet('John'))
